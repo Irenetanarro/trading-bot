@@ -1,14 +1,17 @@
 import requests
 import json
 from datetime import datetime
+from dotenv import load_dotenv
+import os
 
 print("\n" + "="*80)
 print("DÍA 35 - TRADING AUTOMATIZADO: SETUP DE ALPACA")
 print("="*80)
 
-# Aquí pondrás tus API keys
-API_KEY = "REMOVED_FOR_SECURITY"
-SECRET_KEY = "REMOVED_FOR_SECURITY"
+# Cargar API keys desde .env
+load_dotenv()
+API_KEY = os.getenv("ALPACA_API_KEY")
+SECRET_KEY = os.getenv("ALPACA_SECRET_KEY")
 
 # Alpaca Paper Trading URL
 BASE_URL = "https://paper-api.alpaca.markets"
