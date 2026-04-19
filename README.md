@@ -20,73 +20,40 @@
 
 # 
 
-# \## 🎯 Overview
+## 🎯 Overview
 
-# 
+This project is part of a 180-day self-guided bootcamp from zero programming to ML Engineer in quantitative finance. The bot implements a full pipeline: data ingestion → feature engineering → ML-based signal generation → risk management → automated order execution.
 
-# This project is part of a 180-day self-guided bootcamp from zero programming to ML Engineer in quantitative finance. The bot implements a full pipeline: data ingestion → feature engineering → ML-based signal generation → risk management → automated order execution.
+**Key principle:** ML as a confirmation filter, not a replacement for robust strategy. Trend Following signals (MA20/MA50) are validated by an XGBoost model before execution.
 
-# 
+---
 
-# \*\*Key principle:\*\* ML as a confirmation filter, not a replacement for robust strategy. Trend Following signals (MA20/MA50) are validated by an XGBoost model before execution.
+## ✨ Features
 
-# 
+- **Dual-signal architecture**: Trend Following + XGBoost ML confirmation
+- **Multi-asset monitoring**: AAPL, MSFT, GOOGL, AMZN, TSLA
+- **Risk management**: Half Kelly position sizing, -10% stop loss, +20% take profit
+- **Real-time execution**: Alpaca Markets API integration
+- **Production logging**: CSV trade log + session history
+- **Interactive dashboard**: HTML visualization of positions, P&L, and signals
+- **Walk-forward validation**: Rigorous backtesting without lookahead bias
 
-# \---
+---
 
-# 
+## 🛠️ Tech Stack
 
-# \## ✨ Features
+| Category | Tools |
+|----------|-------|
+| Language | Python 3.14 |
+| Data | yfinance, pandas, NumPy |
+| Machine Learning | scikit-learn, XGBoost, PyTorch |
+| Broker API | Alpaca Markets |
+| Visualization | Matplotlib, HTML/CSS |
+| Version Control | Git, GitHub |
 
-# 
+---
 
-# \- \*\*Dual-signal architecture\*\*: Trend Following + XGBoost ML confirmation
-
-# \- \*\*Multi-asset monitoring\*\*: AAPL, MSFT, GOOGL, AMZN, TSLA
-
-# \- \*\*Risk management\*\*: Half Kelly position sizing, -10% stop loss, +20% take profit
-
-# \- \*\*Real-time execution\*\*: Alpaca Markets API integration
-
-# \- \*\*Production logging\*\*: CSV trade log + session history
-
-# \- \*\*Interactive dashboard\*\*: HTML visualization of positions, P\&L, and signals
-
-# \- \*\*Walk-forward validation\*\*: Rigorous backtesting without lookahead bias
-
-# 
-
-# \---
-
-# 
-
-# \## 🛠️ Tech Stack
-
-# 
-
-# | Category | Tools |
-
-# |----------|-------|
-
-# | Language | Python 3.14 |
-
-# | Data | yfinance, pandas, NumPy |
-
-# | Machine Learning | scikit-learn, XGBoost, PyTorch |
-
-# | Broker API | Alpaca Markets |
-
-# | Visualization | Matplotlib, HTML/CSS |
-
-# | Version Control | Git, GitHub |
-
-# 
-
-# \---
-
-# 
-
-# \## 📂 Project Structure
+## 📂 Project Structure
 
 tradingbot/
 
