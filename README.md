@@ -209,6 +209,3 @@ Self-taught quantitative trader | Algo Trading Developer in progress
 - Project: [tradingbot](https://github.com/Irenetanarro/tradingbot)
 
 *Bootcamp: Day 58 of 180 — Target: Algo Trading Developer by September 2026*
-
-*Bootcamp: Day 58 of 180 — Target: Algo Trading Developer by September 2026*
-
