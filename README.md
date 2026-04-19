@@ -4,11 +4,11 @@
 
 #[![Python](https://img.shields.io/badge/Python-3.14-blue.svg)](https://www.python.org/)
 
-# \[!\[License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+# [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-# \[!\[Commits](https://img.shields.io/badge/Commits-55%2B-brightgreen.svg)]()
+# [![Commits](https://img.shields.io/badge/Commits-55%2B-brightgreen.svg)]()
 
-# \[!\[Status](https://img.shields.io/badge/Status-Paper%20Trading-orange.svg)]()
+#[![Status](https://img.shields.io/badge/Status-Paper%20Trading-orange.svg)]()
 
 # 
 
