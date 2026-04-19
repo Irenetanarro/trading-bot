@@ -1,0 +1,15 @@
+
+============================================================
+SESIÓN: 20260417_190544
+============================================================
+Fecha: 2026-04-17 19:05:44
+Equity: $100,013.68 | Cash: $100,013.68
+
+AAPL: $271.35 | TF=VENDER ML=NO COMPRAR → VENDER
+MSFT: $426.30 | TF=VENDER ML=COMPRAR → VENDER
+GOOGL: $339.52 | TF=VENDER ML=NO COMPRAR → VENDER
+AMZN: $253.88 | TF=COMPRAR ML=NO COMPRAR → ESPERAR
+TSLA: $406.21 | TF=VENDER ML=COMPRAR → VENDER
+
+Compras: 0 | Ventas: 0
+
